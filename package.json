@@ -1,0 +1,19 @@
+{
+  "title": "Hide WebRTC indicator",
+  "name": "hidewebrtcindicator",
+  "id": "hidewebrtcindicator@cssu.in",
+  "version": "0.0.1",
+  "description": "Hides the indicator window for WebRTC connections",
+  "main": "index.js",
+  "author": "Marcii <marcii@cssu.in>",
+  "permissions": {
+    "private-browsing": true
+  },
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
