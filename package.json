@@ -2,7 +2,7 @@
   "title": "Hide WebRTC indicator",
   "name": "hidewebrtcindicator",
   "id": "hidewebrtcindicator__@cssu.in",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hides the indicator window for WebRTC connections",
   "main": "index.js",
   "author": "Marcii <marcii@cssu.in>",
