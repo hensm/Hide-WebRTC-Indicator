@@ -23,9 +23,5 @@ function restore() {
 }
 
 
-exports.main = function(options, callbacks) {
-	replace();
-}
-exports.onUnload = function() {
-	restore();
-}
+exports.main = replace;
+exports.onUnload = restore;
