@@ -6,9 +6,6 @@
   "description": "Hides the indicator window for WebRTC connections",
   "main": "index.js",
   "author": "Marcii <marcii@cssu.in>",
-  "permissions": {
-    "private-browsing": true
-  },
   "engines": {
     "firefox": ">=38.0a1"
   },
