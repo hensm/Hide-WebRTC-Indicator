@@ -19,4 +19,4 @@ function restore() {
 
 
 exports.main = replace;
-exports.onUnload = restore
+exports.onUnload = restore;
