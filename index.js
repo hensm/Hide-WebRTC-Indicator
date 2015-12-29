@@ -9,12 +9,7 @@ function replace() {
 	_orig_getGlobalIndicator = global.getGlobalIndicator;
 
 	global.getGlobalIndicator = function() {
-		let _orig_openWindow = Services.ww.openWindow;
-		Services.ww.openWindow = undefined;
-		let ret = _orig_getGlobalIndicator.apply(global);
-		Services.ww.openWindow = _orig_openWindow;
-
-		return ret;
+		return null;
 	};
 }
 
@@ -24,4 +19,4 @@ function restore() {
 
 
 exports.main = replace;
-exports.onUnload = restore;
+exports.onUnload = restore
